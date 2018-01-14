@@ -1,12 +1,12 @@
 package com.smola;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
 public class App {
     public static void main(String[] args) {
         System.out.println("Hello world!");
-        List<String> siema = new ArrayList<>();
-        }
+        ShapeFactory shapeFactory = new ShapeFactory();
+        Shape shape1 = shapeFactory.getShape("circle");
+        shape1.draw();
+        Shape shape2=shapeFactory.getShape("rectangle");
+        shape2.draw();
+    }
 }
