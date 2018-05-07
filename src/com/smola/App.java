@@ -2,6 +2,9 @@ package com.smola;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Duck model = new ModelDuck();
+        model.performFly();
+        model.setFlyBehaviour(new FlyRocketPowered());
+        model.performFly();
     }
 }
