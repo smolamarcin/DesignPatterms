@@ -1,6 +1,4 @@
-package com.smola;
-
-import com.smola.strategyexercise.Knight;
+package com.smola.strategy;
 
 public class App {
     public static void main(String[] args) {

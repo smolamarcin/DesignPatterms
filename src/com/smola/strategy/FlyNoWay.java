@@ -1,4 +1,4 @@
-package com.smola;
+package com.smola.strategy;
 
 public class FlyNoWay implements FlyBehaviour {
     @Override

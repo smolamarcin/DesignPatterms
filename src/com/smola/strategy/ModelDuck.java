@@ -1,4 +1,4 @@
-package com.smola;
+package com.smola.strategy;
 
 public class ModelDuck extends Duck {
     public ModelDuck() {

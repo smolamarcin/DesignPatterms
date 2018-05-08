@@ -1,4 +1,4 @@
-package com.smola;
+package com.smola.strategy;
 
 public interface QuackBehaviour {
     void quack();
